@@ -534,3 +534,200 @@ li {
 .footer-social ul li a img {
     width: 30px; /* Adjust the social icon size as needed */
 }
+
+/* CSS for Desktop */
+/* Your existing CSS code */
+
+/* CSS for Tablet */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .header {
+        padding: 0 2%;
+    }
+
+    /* Main Content */
+    .main_content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box_1 {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .box_2 {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Placement Section */
+    .placement_content {
+        height: auto;
+    }
+
+    .placement_backgroung_video {
+        height: 400px;
+    }
+
+    /* Comparison Section */
+    .thing {
+        width: 100%;
+    }
+
+    /* Admission Process */
+    .main-content_1 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .flowchart {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .step {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    .circle {
+        font-size: 18px;
+    }
+
+    /* Curriculum */
+    .curriculum-content {
+        flex-direction: column;
+    }
+
+    .semester {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* CSS for Mobile */
+@media screen and (max-width: 480px) {
+    /* Header */
+    .header {
+        padding: 0 2%;
+    }
+
+    /* Main Content */
+    .main_content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box_1 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .box_2 {
+        width: 90%;
+        height: auto;
+    }
+
+    .welcome-message h1 {
+        font-size: 24px;
+    }
+
+    .welcome-message h2 {
+        font-size: 18px;
+    }
+
+    /* Restyle the Apply Now button for mobile */
+    .join-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* Placement Section */
+    .placement_content {
+        height: auto;
+    }
+
+    .placement_heading {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .placement_backgroung_video {
+        height: 300px;
+    }
+
+    /* Comparison Section */
+    .thing {
+        width: 100%;
+    }
+
+    .thing h3 {
+        font-size: 20px;
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .card h4 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    /* Admission Process */
+    .main-content_1 {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .section-heading_1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .flowchart {
+        margin-top: 10px;
+    }
+
+    .step {
+        margin-bottom: 10px;
+    }
+
+    .circle {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    /* Curriculum */
+    .semester {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .semester h3 {
+        font-size: 18px;
+    }
+
+    .subject-card h4 {
+        font-size: 14px;
+    }
+
+    .subject-card p {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .footer-logo img {
+        width: 100px;
+    }
+
+    .footer-links h3 {
+        font-size: 14px;
+    }
+}
